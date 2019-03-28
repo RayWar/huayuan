@@ -1,0 +1,321 @@
+
+.bold{
+	font-weight: bold;
+}
+				/*无卡支付页面*/
+
+.wuka-box{
+	width:1000px;
+	margin: 0 auto;
+}
+.wuka-img1{
+	margin-top:50px;
+	width:1000px;
+}
+.saoma{
+	width:1000px;
+	padding-top: 80px;
+}
+.saoma-left{
+	float: left;
+	width: 40%;
+	padding-top: 100px;
+}
+.saoma-left p{
+	font-size: 20px;
+	width: 400px;
+	margin-left: 10px;
+}
+.saoma-left span{
+	font-size: 18px;
+	margin-right: 16px;
+}
+.saoma-right{
+	float: right;
+	width: 60%;
+}
+.saoma-right img{
+	width: 100%;
+}
+.wuka-img2{
+	margin-top:50px;
+	width:1000px;
+}
+.wuka-img3{
+	margin-top:50px;
+	width:1000px;
+	margin-bottom: 50px;
+}
+
+
+				/*打票POS机页面*/
+
+.pos-box{
+	width:1000px;
+	margin: 0 auto;
+}
+.pos-box img{
+	margin-top:100px;
+	width:1000px;
+	margin-bottom: 50px;
+}
+
+
+				/*点刷页面*/
+
+.ds-box{
+	width:1000px;
+	margin: 0 auto;
+}
+.ds-img1{
+	margin-top:100px;
+	width:1000px;
+	margin-bottom: 50px;
+}
+.ds-img2{
+	width:1000px;
+	margin-bottom: 50px;
+}
+
+
+				/*付临门页面*/
+
+.flm-box{
+	width:1000px;
+	margin: 0 auto;
+}
+.flm-img1{
+	margin-top:100px;
+	width:1000px;
+	margin-bottom: 50px;
+}
+.flm-img2{
+	width:1000px;
+	margin-bottom: 50px;
+}
+
+
+				/*瑞和宝页面*/
+
+.rhb-box{
+	width:1000px;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+.rhb-con{
+	width:1000px;
+	overflow: hidden;
+	padding-top: 70px;
+	padding-bottom: 75px;
+}
+.rhb-left{
+	float: left;
+	width: 50%;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.rhb-right{
+	float: left;
+	width: 50%;
+	padding-left: 100px;
+}
+.rhb-right h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: #ff8400;
+	margin-bottom: 40px;
+}
+.rhb-right p{
+	color: #727171;
+	font-size: 20px;
+}
+.rhb-img1{
+	width: 1000px;
+	margin-bottom: 50px;
+}
+
+
+
+				/*速刷页面*/
+
+.ss-box{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 1px;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+.y10-1{
+	width: 1000px;
+	overflow: hidden;
+}
+.ss-box .y10-2{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.ss-box .y10-3{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.ss-img1{
+	width: 1000px;
+}
+
+
+					/*卡宝页面*/
+
+.kb-box{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+				/*付宝页面*/
+
+
+.fb-box{
+	width: 1000px;
+	margin: 0 auto;
+}
+.bgcc .y4-img{
+	margin-top: 50px;
+}
+.fb-img1{
+	margin-top:50px;
+	width:1000px;
+	margin-bottom: 50px;
+}
+.fb-img2{
+	width: 1000px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+				/*主页*/
+
+.sec2{
+	background-color: #f6f6f6;
+}
+.logo-box{
+	width: 1210px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.logo-box li{
+	width: 240px;
+	height: 140px;
+	float: left;
+	padding-top: 30px;
+	border-right: 1px solid #dcdcdc;
+	margin-top: 50px;
+}
+.logo-box li img{
+	width: 121px;
+	height: 57px;
+	border: 5px solid transparent;
+}
+.logo-box li:hover{
+	background-color: #0b6990;
+}
+.logo-box li:hover img{
+	border: 5px solid white;
+}
+.logo-box li:hover p{
+	color: white;
+}
+
+.logo-box .border-none{
+	border-right: none;
+}
+
+.nav-div img{
+	width: 200px;
+}
+.sec1{
+	display: block;
+}
+.sec5{
+	display: none;
+}
+@media  screen and (max-width: 1366px){
+	.div-img{
+		margin-bottom: 50px;
+	}
+}
+@media  screen and (max-width: 1280px){
+	.div-img{
+		margin-bottom: 20px;
+	}
+	.div-img img {
+     margin-top: 2px; 
+}
+}
+@media  screen and (max-width: 1210px){
+	.div-img{
+		margin-bottom: 20px;
+	}
+	.sec2{
+		padding-top: 200px;
+	}
+	.logo-box{
+		width: 652px;
+	}
+	.logo-box li{
+		margin-left: 60px;
+		background-color: #0b6990;
+		text-align: center;
+	}
+	.logo-box li img{
+		border: 5px solid white;
+	}
+	.logo-box li p{
+		color: white;
+	}
+	.sec1{
+		display: none!important;
+	}
+	.sec5{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.y1-5{
+		/*margin-top: 100px;*/
+		margin-top: 46px;
+	}
+	.y1-5 div{
+		margin-top: 30px;
+	}
+}
+
+
+
+				/*拉卡拉页面*/
+.lakala-img1{
+	width:1000px;
+	margin-top: 100px;
+}
+.lakala-img2{
+	width:1000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+
+				/*乐刷页面*/
+				
+.ls-img1{
+	width: 1000px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
